@@ -1,0 +1,10 @@
+--sqlite 주석문 
+SELECT 'hello world';
+SELECT 1+2;
+SELECT *FROM Country;
+SELECT * FROM Country ORDER BY Name;
+SELECT Name,LifeExpectancy AS 'Life Expectancy' FROM Country;
+SELECT LifeExpectancy AS 'Life Expectancy' FROM Country;
+SELECT COUNT(*) FROM Country;
+SELECT *FROM Country ORDER BY Name LIMIT 5;
+SELECT *FROM Country ORDER BY Name LIMIT 5 OFFSET 5;
